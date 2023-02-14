@@ -17,6 +17,38 @@
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "tenant": "default"
+        },
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "server": "https://businesscentral.dynamics.com",
+            "tenant": "e7c0059a-6951-4e45-8ee8-6de2f7bd8f87",
+            "authentication": "AAD",
+            "environmentName": "CPProd230209",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        },
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "live",
+            "server": "http://10.0.0.5",
+            "serverInstance": "fabamaq",
+            "port": 2005,
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
         }
     ]
 }
